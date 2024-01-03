@@ -4,7 +4,7 @@
 An adorable game where you can play as your chosen kitty, aiming to catch as many fish as you can while evading the Big Bad Wolf. A single encounter with the wolf means you're caught, so the player must be swift and strategic. The user controls the kitty's movements with the WASD keys, and they must select their preferred kitty from the dropdown above before starting. There is also a feature to adjust the game difficulty with a click and the RIGHT ARROW key. This game was developed using HTML, CSS, and the p5.js library.
 
 ## Game Demo
-https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/193d87a9-88f0-4d2e-9170-d358bb3fdf4f
+https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/d754d527-6e1d-4755-861b-4d8efcc4ee23
 
 
 
