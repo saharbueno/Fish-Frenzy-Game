@@ -25,7 +25,7 @@ I wanted to make this game unique and something that I would want to play in my 
 
 ![sketch](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/8f3f3745-a64c-4792-b124-677f98868c42)
 
-Having this initial design helped me a lot in being able to fully flesh out the design and character art. You can find the final designs below: 
+Having this initial design helped me a lot in being able to fully flesh out the design and character art. You can find the final character designs below: 
 
 ![dukefluffykins](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/475fbecf-a5cd-45ba-9c40-25933ac0190a)
 ![happypaws](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/05a90cba-f5e9-4fb3-a1fa-7ca796e62d32)
