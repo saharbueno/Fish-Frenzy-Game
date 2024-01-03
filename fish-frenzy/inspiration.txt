@@ -1,0 +1,11 @@
+Main Goal:
+
+My main goal for this project is to build a game where the objective is to run away from a villain that is chasing you down while trying to collect coins, which will determine the end score of your game.  
+
+Developing the Theme + Inspiration:
+
+After thinking of the basic idea of my game, I thought of what theme I wanted to develop for my game for the user to experience. Do I want my game to be a completely original idea with original characters or should I make it similar to something I have already seen? This is where I thought of the game Bad Ice-cream. It is a game where little ice cream characters are tasked with collecting all the fruit in a level while being chased by a monster. As the user progresses through the levels, the game gets harder since the monsters get faster and the fruit are placed in more hard-to-reach places on the unique map for the level. I wanted to simulate a similar feel, so I decided to make my game cat-themed-- the character must run away from a wolf and collect all the fish it can while being a cute cat!
+
+Final Touches:
+
+Since I did not want to make several maps for this game, I decided to stick with a more open-ended approach to it. I would allow the character to collect as many fish as it could while the villain chases them with no time constraints or different maps. However, I still wanted to give the user more of a challenge, so I decided to incorporate easy, medium, and EXTREME game modes. In each of these game modes, the villain/wolf gets even faster than the mode before, which becomes more of a challenge for the user that they must get accustomed to in order to get higher scores each time. 

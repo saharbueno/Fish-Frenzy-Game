@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <!-- load in the p5 core library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+
+    <!-- load in the p5 sound library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.js"></script>
+
+    <!-- your custom sketch code -->
+    <script src="sketch.js"></script>
+
+    <!-- make fish tank! -->
+
+    <!-- custom CSS styles for this page -->
+    <style>
+
+      @font-face {
+        font-family: myFont;
+        src: url(myFont/04B_30__.TTF);
+      }
+
+      canvas {
+        border: outset 10px #f781bf;
+        display: block;
+        margin: auto;
+        margin-top: 2.5%;
+      }
+
+      body {
+        background-color: #ffb0d9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: myFont;
+        margin-top: 5%;
+        background: -webkit-linear-gradient(black, #f781bf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h2 {
+        text-align: center;
+        font-family: myFont;
+        margin-top: 2.5%;
+        background: -webkit-linear-gradient(black, #f781bf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h3 {
+        text-align: center;
+        font-family: myFont;
+        margin-top: 2.5%;
+        background: -webkit-linear-gradient(black, #f781bf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      select {
+        margin: 25px;
+        border: outset 4px #f781bf;
+        border-radius: 15px;
+        padding: 8px;
+        text-align: center;
+        font-family: myFont;
+        color: #f781bf;
+      }
+
+      p {
+        text-align: center;
+        background-color: white;
+        width: 500px;
+        padding: 1%;
+        border: outset 5px #f781bf;
+        border-radius: 15px;
+        color: #f781bf;
+        margin: auto;
+        margin-bottom: 2%;
+      }
+
+      #chooseKitty {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        width: 100%;
+      }
+
+      #chooseKittyP {
+        margin: 25px;
+        text-align: center;
+        background-color: white;
+        width: 150px;
+        padding: 1%;
+        border: outset 5px #f781bf;
+        border-radius: 15px;
+        font-family: myFont;
+        color: #f781bf;
+      }
+
+      .artImages {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+        align-items: baseline;
+        margin-bottom: 2.5%;
+        margin-top: 2.5%;
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 20px;
+        background-color: white;
+        font-family: myFont;
+        font-size: 12px;
+        text-align: center;
+        opacity: 0.6;
+        color: #f781bf;
+      }
+
+      img {
+        margin: auto;
+        margin-top: 2%;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>FISH FRENZY!</h1>
+    <div class="artImages">
+        <img src="images/mrsoftpaws.png">
+        <img src="images/dukefluffykins.png">
+        <img src="images/happypaws.png">
+      </div>
+    <div id="div"></div>
+      <div id="chooseKitty">
+        <p id="chooseKittyP">Choose which kitty you want to play as before you click to start:</p>
+        <select id="catSelect" oninput="changeCat(this);">
+          <option value="0">Cat Options</option>
+          <option value="1">Mr. Soft Paws</option>
+          <option value="2">Duke Fluffykins</option>
+          <option value="3">Happy Paws</option>
+        </select>
+      </div>
+      <h2>HOW TO PLAY</h2>
+      <p>The main goal of this game is to catch as many fish as possible while running away from the Big Bad Wolf! One hit from the wolf and you're CAUGHT. Use WASD keys to move your kitty cat and choose which kitty you want to be with the dropdown ABOVE! 
+        Use W to move up, A to move left, S to move down, and D to move left. Choose your difficulty by clicking on the game once and pressing the RIGHT ARROW. Change your kitty cat before clicking or else you won't be allowed to play!
+      </p>
+      <h3>DOCUMENTATION: MECHANICS</h3>
+      <p>To start, I knew I wanted to create a game where the user plays as a cute character, which is why I decided for the main character to be a cat! After this decision, I remembered a game I used to play all the time when I was bored called Bad Icecream. This game consists of a grumpy-looking ice cream character that moves through a pixelated frozen-wonderland in order to collect fruit.
+        This little guy is then chased by some big monster and acts as an obstacle to the ice cream guy's search for fruit. As the user progresses through the levels, the game gets harder with more obstacles and an even faster monster. I wanted to incorporate some of these qualities and decided that my user would be on the search for moving fish that move left and right throughout the screen. 
+        The user must control the kitty using WASD keys and collect as many fish as they can as there is no time limit unlike in Bad Icecream. However, like in Bad Icecream, there is a villain: the Wolf. This wolf chases the character while they try to collect fish, and once the kitty is caught: it's GAME OVER. Since Bad Icecream gets harder as the user goes through the levels, I wanted to make
+        the game get harder without having to create different maps for every level. Thus, I want to provide an easy, medium, or EXTREME game-mode where the Wolf gets even faster as the game-mode gets harder.
+      </p>
+      <h3>DOCUMENTATION: APPEARANCE</h3>
+      <p>With the logic of the game fleshed out, I then moved onto the appearance. I sketched out all the components I needed to create: the background, kitties, wolf, and fishies. After creating a rough 
+        sketch of what I wanted everything to look like, I then moved forward with creating the final product, which I will include below:
+      </p>
+      <div class="artImages">
+        <img src="images/mrsoftpaws.png">
+        <img src="images/dukefluffykins.png">
+        <img src="images/happypaws.png">
+      </div>
+      <img src="images/wolf.png" width="50">
+      <img src="inspirationImages/sketch.jpg" width="400">
+      <footer>
+        Author: Sahar Bueno-Abdala | Interactive Computing Fall'23 | NYU 2025 |
+        PNG Fish from pngtree.com
+        | Other art by me 
+
+      </footer>
+  </body>
+</html>
+
