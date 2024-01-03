@@ -32,10 +32,12 @@ I wanted to make this game unique and something that I would want to play in my 
 
 Having this initial design helped me a lot in being able to fully flesh out the design and character art. You can find the final character designs below: 
 
-![dukefluffykins](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/475fbecf-a5cd-45ba-9c40-25933ac0190a)
-![happypaws](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/05a90cba-f5e9-4fb3-a1fa-7ca796e62d32)
-![mrsoftpaws](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/87c95378-f60a-45b3-80ee-14e22c14046b)
-![wolfR](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/f6ba66c2-c6b5-4ea0-b68a-a6567e3583e8)
+<p align="center">
+  ![dukefluffykins](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/475fbecf-a5cd-45ba-9c40-25933ac0190a)
+  ![happypaws](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/05a90cba-f5e9-4fb3-a1fa-7ca796e62d32)
+  ![mrsoftpaws](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/87c95378-f60a-45b3-80ee-14e22c14046b)
+  ![wolfR](https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/f6ba66c2-c6b5-4ea0-b68a-a6567e3583e8)
+</p>
 
 Seeing the game come together was really rewarding and I loved that I was involved in every part of the process from first brainstorming the game idea, to designing the atmosphere and experience, to implementing the logic to make the game really come to life. 
 
