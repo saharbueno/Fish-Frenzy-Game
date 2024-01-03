@@ -17,7 +17,10 @@ I had to use the Object Oriented Programming aspect of JS in order to create cla
 <p align="center">
   <i>A code snippet of the Cat class</i>
 </p>
-<img src="https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/beb2a968-c559-45df-a0ab-a884f5500621.png" width="450">
+
+<p align="center">
+  <img src="https://github.com/saharbueno/Fish-Frenzy-Game/assets/69322388/beb2a968-c559-45df-a0ab-a884f5500621.png" width="450">
+</p>
 
 Moreover, one of the most challenging parts of this game was handling all of the game states. I had to make sure that events in the game where triggered exactly when they needed to be, such as when the user picks a cat and is ready to play, when the wolf catches the user, and when the user clicks to go back to the start screen. The hardest thing to implement was how to allow the user to pick a new cat to play with. To do this, I had to make sure the user's cat pick was cleared after every game, and I made it a requirement for the user to pick another cat before the user's click could trigger a new game. 
 
